@@ -173,6 +173,12 @@ a {
 .pic5 {
   background: url(../assets/images/5.jpg) no-repeat scroll 0px 0px transparent;
 }
+.pic6 {
+  background: url(../assets/images/6.jpeg) no-repeat scroll 0px 0px transparent;
+}
+.pic7 {
+  background: url(../assets/images/7.jpg) no-repeat scroll 0px 0px transparent;
+}
 .content {
   padding: 10px 10px 0px 10px;
   max-width: 850px;

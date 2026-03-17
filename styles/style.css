@@ -265,9 +265,17 @@ a {
 #win{
   position: absolute;
   z-index: 3;
-  width: 70px;
+/* width: 70px;
   left: 41%;
-  top: 40%;
+  top: 40%;*/
+  left: 50%;
+  top: 50%;
+  width: 18%;
+  max-width: 70px;
+  height: auto;
+  transform: translate(-50%, -58%);
+
+
 }
 /* ----- Sweet-alert START */
 .sweet-overlay {

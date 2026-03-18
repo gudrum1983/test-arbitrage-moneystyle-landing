@@ -72,10 +72,14 @@
     margin-bottom: 2px;
   }
 
+  #modal01 {
+    --modal-border-color: rgb(243, 165, 76);
+  }
+
   #modalButtonFirst {
     display: inline-block;
     box-shadow: rgba(140, 212, 245, 0.8) 0px 0px 2px, rgba(0, 0, 0, 0.047) 0px 0px 0px 1px inset;
-    background-color: rgb(34, 177, 76);
+    background-color: var(--modal-border-color, #2cac00);
     font-weight: bold;
     animation-duration: 1.15s;
     animation-timing-function: ease;
@@ -130,12 +134,12 @@
     color: darkslategray;
   }
 
-  #i25ci {
+/*  #i25ci {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 15px;
     margin-left: 0;
-  }
+  }*/
 
   #typeOS {
     font-size: 18px;
@@ -191,12 +195,12 @@
 <div id="modal01" class="modal sweet-alert animated bounceIn visible">
   <div id="i1olm" class="modal_container_1"><h2 id="i313a"> CONGRATULATIONS! </h2>
     <p id="g41uat" attr-cou="default">YOU CAN GET
-      <br id="ij4kj"><strong id="as5000" class="text_grad"> $5,000 </strong></p></div>
+      <br id="ij4kj"><strong id="as5000" class="text_grad"> $3,000 </strong></p></div>
   <div id="izxd2" class="sa-button-container">
     <div id="icpnd" class="sa-confirm-button-container">
       <button id="modalButtonFirst" data-gjs-type="button" class="modal_button"> OK</button>
-      <div id="ifh04" class="timer_container"><p id="i25ci"> You have <span id="iawrk" class="timer"><span
-          id="mins"> 1</span>:<span id="hsecs">36 </span></span></p></div>
+      <!--<div id="ifh04" class="timer_container"><p id="i25ci"> You have <span id="iawrk" class="timer"><span
+          id="mins"> 1</span>:<span id="hsecs">36 </span></span></p></div>-->
     </div>
   </div>
 </div>

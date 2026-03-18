@@ -69,7 +69,7 @@ function getWeekDay(){
 // timer
 /***********************************************/
 
-function countdown() {
+/*function countdown() {
 
   let mins = parseInt(document.getElementById("mins").innerHTML);
   let secs = parseInt(document.getElementById("hsecs").innerHTML);
@@ -91,7 +91,7 @@ function countdown() {
 
   if (nsecs < 10) nsecs = "0" + nsecs;
   document.getElementById("hsecs").innerHTML = nsecs;
-}
+}*/
 
 /***********************************************/
 // events
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalButtonFirst = document.getElementById('modalButtonFirst');
   const modalButtonSecond = document.getElementById('modalButtonSecond');
   const modalButtonSecond_1 = document.getElementById('modalButtonSecond_1');
-  setInterval('countdown()', 1000);
+/*  setInterval('countdown()', 1000);*/
 
 
   function clickListener(event) {
